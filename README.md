@@ -1,9 +1,13 @@
 # Simulation_W_JSON
 
-A C++ simple Black Oil Reservoir Simulation project that reads configuration from JSON files.  
-Built with CMake, compatible with MSYS2 (MinGW) or Visual Studio on Windows.
+A C++ modular Black Oil Reservoir Simulation project that reads configuration from JSON files.  
+Built with C++17, Eigen, nlohmann/json with portable build using CMake. Compatible with MSYS2 (MinGW) or Visual Studio on Windows.
 
 ---
+
+## Purpose
+
+This project demonstrates numerical simulation of multiphase fluid flow in reservoirs, using finite difference method.
 
 ## Features
 
