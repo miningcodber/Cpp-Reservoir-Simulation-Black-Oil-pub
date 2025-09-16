@@ -39,8 +39,8 @@ pacman -S base-devel mingw-w64-x86_64-toolchain cmake
 
 
 # Clone the repository
-git clone https://github.com/miningcodber/Cpp-Reservoir-Simulator-black-oil-.git
-cd Cpp-Reservoir-Simulator-black-oil-
+git clone https://github.com/miningcodber/Cpp-Reservoir-Simulation-Black-Oil-pub.git
+cd Cpp-Reservoir-Simulator-black-oil-pub
 
 # Create and enter a build folder
 mkdir build
