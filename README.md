@@ -7,12 +7,13 @@ Built with CMake, compatible with MSYS2 (MinGW) or Visual Studio on Windows.
 
 ## Features
 
-- Reads simulation parameters from `resources/config.json` (comes with a config.json example in resources/)
-- Modular design with headers and source files in `include/` and `src/`
-- Uses **nlohmann/json** for JSON parsing
-- Portable build with CMake
-- Automatic copying of resource files to the build folder
-- Under debugging_tools/ there is json_debugger_sat.py, it serves as a novelty visualisation script for the basic simulation variables
+- Reads simulation parameters from `resources/config.json` (comes with a config.json example in `resources/`).
+- Modular design with headers and source files in `include/` and `src/`.
+- Uses **nlohmann/json** for JSON parsing.
+- Uses **Eigen** for numerical solvers.
+- Portable build with CMake.
+- Automatic copying of resource files to the build folder.
+- Under `debugging_tools/` there is json_debugger_sat.py, it serves as a novelty visualisation script for the basic simulation variables.
 
 ---
 
